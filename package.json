@@ -1,0 +1,25 @@
+{
+  "name": "command-executer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sokol69/command-executer.git"
+  },
+  "author": "Dmitry Sokolov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sokol69/command-executer/issues"
+  },
+  "homepage": "https://github.com/sokol69/command-executer#readme",
+  "dependencies": {
+    "inquirer": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^8.2.1"
+  }
+}
