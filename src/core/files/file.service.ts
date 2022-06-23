@@ -1,5 +1,5 @@
 import { promises } from "fs";
-import { dirname, isAbsolute, join } from "path";
+import { dirname, isAbsolute, join, resolve } from "path";
 
 export class FileService {
   private async isExist(path: string) {
@@ -13,6 +13,7 @@ export class FileService {
 
   public getFilePath(path: string, name: string, ext: string) {
     if (!isAbsolute(path)) {
+      const __dirname = resolve();
       path = join(__dirname + '/' + path);
     }
 
